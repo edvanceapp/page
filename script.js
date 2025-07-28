@@ -5,9 +5,16 @@ document.addEventListener('DOMContentLoaded', function() {
     
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            
+            // If it's an external link or different page, allow normal navigation
+            if (href && !href.startsWith('#')) {
+                return; // Allow normal navigation
+            }
+            
             e.preventDefault();
             
-            const targetId = this.getAttribute('href');
+            const targetId = href;
             const targetSection = document.querySelector(targetId);
             
             if (targetSection) {
