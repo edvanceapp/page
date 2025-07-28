@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edvance - Secure Online Assessment Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <img src="logo.png" alt="Edvance Logo" width="48" height="32">
+                </div>
+                <h2>Edvance</h2>
+            </div>
+            <div class="nav-links">
+                <a href="#overview" class="nav-link">Overview</a>
+                <a href="#waitlist" class="nav-link">Waitlist</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-headline">Secure Online Assessment Platform for the Digital Era</h1>
+                <p class="hero-subheadline">Edvance empowers learners and educators with engaging, accessible, evidence-based tools that bridge educational gaps and drive lasting mastery.</p>
+                <div class="hero-features">
+                    <div class="feature-tag">🔒 Lockdown Browser</div>
+                    <div class="feature-tag">⏱️ HSC-Ready Timers</div>
+                    <div class="feature-tag">📝 Smart Marking</div>
+                </div>
+                <a href="#waitlist" class="cta-button">Join the Private Waitlist</a>
+            </div>
+            <div class="hero-visual">
+                <div class="platform-preview">
+                    <div class="preview-tabs">
+                        <div class="tab active" data-tab="student">Student View</div>
+                        <div class="tab" data-tab="teacher">Teacher Dashboard</div>
+                        <div class="tab" data-tab="marking">Marking Workspace</div>
+                    </div>
+                    <div class="preview-content">
+                        <div class="preview-panel active" id="student-panel">
+                            <div class="exam-interface">
+                                <div class="exam-header">
+                                    <span class="exam-title">HSC English Extension 1</span>
+                                    <span class="exam-timer">01:58:32</span>
+                                </div>
+                                <div class="question-area">
+                                    <h3>Question 1 - Literary Worlds (25 marks)</h3>
+                                    <p>Compare how the authors of Text 1 and Text 2 explore the concept of identity.</p>
+                                    <div class="stimulus-materials">
+                                        <div class="stimulus-item">
+                                            <span class="stimulus-label">Text 1: Film extract</span>
+                                            <div class="video-placeholder">🎬 Video Content</div>
+                                        </div>
+                                        <div class="stimulus-item">
+                                            <span class="stimulus-label">Text 2: Fiction extract</span>
+                                            <div class="text-stimulus">"The world was hers for the reading..."</div>
+                                        </div>
+                                    </div>
+                                    <textarea placeholder="Type your response here..." class="response-area"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="preview-panel" id="teacher-panel">
+                            <div class="teacher-dashboard">
+                                <div class="welcome-banner">
+                                    <h3>Welcome back! Ready to empower your students?</h3>
+                                    <button class="create-exam-btn">Create New Exam</button>
+                                </div>
+                                <div class="exam-list">
+                                    <div class="exam-item">
+                                        <span class="exam-name">HSC English Advanced - Paper 1</span>
+                                        <span class="exam-status active">Active • 25/30</span>
+                                    </div>
+                                    <div class="exam-item">
+                                        <span class="exam-name">HSC Mathematics Standard 2</span>
+                                        <span class="exam-status marking">Marking • 28/28</span>
+                                    </div>
+                                    <div class="exam-item">
+                                        <span class="exam-name">Year 11 Physics - End of Term</span>
+                                        <span class="exam-status draft">Draft • 0/22</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="preview-panel" id="marking-panel">
+                            <div class="marking-workspace">
+                                <div class="student-info">
+                                    <span>Alex Doe (S12345)</span>
+                                </div>
+                                <div class="rubric-section">
+                                    <h4>Marking Rubric</h4>
+                                    <div class="rubric-item">
+                                        <span>Understanding of Text</span>
+                                        <div class="score">4/5</div>
+                                    </div>
+                                    <div class="rubric-item">
+                                        <span>Analysis of Techniques</span>
+                                        <div class="score">8/10</div>
+                                    </div>
+                                    <div class="rubric-item">
+                                        <span>Structure and Expression</span>
+                                        <div class="score">4/5</div>
+                                    </div>
+                                    <div class="total-score">Total: 16/20</div>
+                                </div>
+                                <div class="feedback-tools">
+                                    <button class="feedback-btn">🎤 Voice Memo</button>
+                                    <button class="feedback-btn">📧 Email Feedback</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem/Solution Narrative Section -->
+    <section class="problem-solution">
+        <div class="container">
+            <h2 class="problem-headline">Stop Drowning in Assessments. Start Teaching.</h2>
+            <p class="problem-subheadline">We understand the reality. You're spending more time on administration and grading than on connecting with your students. Edvance is designed to give you your time back.</p>
+            <div class="pillars-grid">
+                <div class="pillar-block">
+                    <div class="pillar-icon">🔒</div>
+                    <h3 class="pillar-title">Conduct Exams with Confidence</h3>
+                    <p class="pillar-description">Stop worrying about academic integrity in the digital age. Our HSC-ready lockdown browser creates a secure and equitable testing environment, so you can focus on assessment, not proctoring.</p>
+                </div>
+                <div class="pillar-block">
+                    <div class="pillar-icon">⏳</div>
+                    <h3 class="pillar-title">Reclaim Your Weekends</h3>
+                    <p class="pillar-description">Automate grading for objective questions and streamline feedback for written responses with our intuitive marking workspace. Provide richer, more consistent feedback in a fraction of the time.</p>
+                </div>
+                <div class="pillar-block">
+                    <div class="pillar-icon">📊</div>
+                    <h3 class="pillar-title">Get Instant, Actionable Insights</h3>
+                    <p class="pillar-description">Don't wait for the end of term. Our real-time analytics dashboard shows you exactly which concepts and students need your help right now, empowering you to intervene when it matters most.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="overview">
+        <div class="container">
+            <!-- This section is now simplified and woven into the narrative above -->
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="testimonials-headline">What Teachers Are Saying</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">“As a high school English teacher, a tool that could streamline marking while providing deep student insights would be a complete game-changer.”</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">SJ</div>
+                        <div>
+                            <div class="author-name">Sarah J.</div>
+                            <div class="author-role">High School Teacher</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">“If Edvance can give me back even a few hours each week, that’s time I can spend actually helping my students.”</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">MB</div>
+                        <div>
+                            <div class="author-name">Mark B.</div>
+                            <div class="author-role">Science Department Head</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder's Note / Mission Section -->
+    <section class="founder-note">
+        <div class="container">
+            <div class="founder-content">
+                <div class="founder-avatar-placeholder"></div>
+                <div>
+                    <h2 class="founder-headline">Built by Educators, for Educators.</h2>
+                    <p class="founder-message">As a former teacher, I saw firsthand how administrative burdens were overshadowing the magic of teaching. Our mission with Edvance is simple: to create tools that are so effective and intuitive, they get out of the way and let teachers do what they do best—teach.</p>
+                    <div class="founder-signature">— Angela Hong, Founder</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Waitlist Form Section -->
+    <section id="waitlist" class="waitlist">
+        <div class="container">
+            <h2 class="section-headline">Be the First to Experience It</h2>
+            <p class="section-subheadline">Join the private waitlist for early access and to help shape the future of the platform. We will only email you with important updates.</p>
+            
+            <form id="waitlist-form" class="waitlist-form">
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="submit-button">Request My Invite</button>
+                </div>
+            </form>
+            
+            <div id="success-message" class="success-message" style="display: none;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <span>Thank you! You've been added to the waitlist.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-headline">Ready to Transform Your Assessment Process?</h2>
+            <p class="contact-info">
+                For partnerships, school demonstrations, or inquiries, please reach out to us at: 
+                <a href="mailto:contact@edvance.com.au" class="contact-email">contact@edvance.com.au</a>
+            </p>
+            <div class="contact-cta">
+                <p>Join schools across Australia preparing for the future of digital assessment.</p>
+                <a href="#waitlist" class="secondary-cta">Join the Waitlist</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
